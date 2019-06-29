@@ -1,6 +1,9 @@
 package com.iinaq.springboot.domain;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
+    private static final long serialVersionUID = 8655851615465363473L;
 
     private Long id;
     private String username;
