@@ -1,5 +1,6 @@
 package com.iinaq.springboot;
 
+import com.iinaq.springboot.domain.User;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
