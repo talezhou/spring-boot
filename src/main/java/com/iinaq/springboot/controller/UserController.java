@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@Api(tags = "用户管理")
+@Api(value = "用户管理")
 public class UserController {
 
     @GetMapping("/userInfo")
