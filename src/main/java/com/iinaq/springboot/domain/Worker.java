@@ -1,0 +1,43 @@
+package com.iinaq.springboot.domain;
+
+import com.iinaq.springboot.groups.Groups;
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import java.math.BigDecimal;
+
+public class Worker {
+
+    @NotNull(message = "id不能为空",groups = Groups.Update.class)
+    private Integer id;
+
+    @NotBlank(message = "name不能为空",groups = Groups.Default.class)
+    private String name;
+
+    @NotNull(message = "price不能为空",groups = Groups.Default.class)
+    private BigDecimal price;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
+}
