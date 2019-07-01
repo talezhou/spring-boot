@@ -6,12 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.websocket.server.PathParam;
 
-/**
- * @ClassName ChatRoomController
- * @Description TODO
- * @Author zhouzhongshan
- * @Date 2019/7/1  14:34
- **/
 @RestController
 public class ChatRoomController {
 

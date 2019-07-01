@@ -10,12 +10,6 @@ import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 
-/**
- * @ClassName ChatRoomServerEndPoint
- * @Description TODO
- * @Author zhouzhongshan
- * @Date 2019/7/1  14:19
- **/
 @ServerEndpoint("/chat-room/{username}")
 public class ChatRoomServerEndPoint {
     private static final Logger log= LoggerFactory.getLogger(ChatRoomServerEndPoint.class);

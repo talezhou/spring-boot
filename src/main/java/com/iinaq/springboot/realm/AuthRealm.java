@@ -16,12 +16,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Optional;
 
-/**
- * @ClassName AuthRealm
- * @Description TODO
- * @Author zhouzhongshan
- * @Date 2019/7/1  15:54
- **/
 @Configuration
 public class AuthRealm extends AuthorizingRealm {
     //验证

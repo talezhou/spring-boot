@@ -8,12 +8,7 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @ClassName WebSocketUtils
- * @Description TODO
- * @Author zhouzhongshan
- * @Date 2019/7/1  13:58
- **/
+
 public class WebSocketUtils {
     public static final Map<String,Session> LIVING_SESSION_CACHE =  new ConcurrentHashMap<>();
 

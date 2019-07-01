@@ -16,12 +16,6 @@ import org.springframework.util.StringUtils;
 
 import java.lang.reflect.Method;
 
-/**
- * @ClassName CacheLockMethodInterceptor
- * @Description TODO
- * @Author zhouzhongshan
- * @Date 2019/7/1  12:12
- **/
 @Aspect
 @Configuration
 public class CacheLockMethodInterceptor {

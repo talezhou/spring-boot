@@ -14,12 +14,7 @@ import org.springframework.util.StringUtils;
 import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @ClassName LockMethodInterceptor
- * @Description TODO
- * @Author zhouzhongshan
- * @Date 2019/7/1  9:58
- **/
+
 @Aspect
 @Configuration
 public class LocalLockMethodInterceptor {

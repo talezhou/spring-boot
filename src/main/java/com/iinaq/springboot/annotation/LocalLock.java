@@ -1,14 +1,7 @@
 package com.iinaq.springboot.annotation;
 
 import java.lang.annotation.*;
-import java.util.concurrent.TimeUnit;
 
-/**
- * @ClassName LocalLock
- * @Description TODO
- * @Author zhouzhongshan
- * @Date 2019/7/1  9:55
- **/
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented

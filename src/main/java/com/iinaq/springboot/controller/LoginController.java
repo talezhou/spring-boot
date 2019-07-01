@@ -9,12 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-/**
- * @ClassName LoginController
- * @Description TODO
- * @Author zhouzhongshan
- * @Date 2019/7/1  16:34
- **/
 @RestController
 public class LoginController {
     private static final Logger log = LoggerFactory.getLogger(LoginController.class);

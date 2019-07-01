@@ -23,12 +23,6 @@ import org.springframework.context.annotation.Configuration;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * @ClassName ShiroConfiguration
- * @Description TODO
- * @Author zhouzhongshan
- * @Date 2019/7/1  15:01
- **/
 @Configuration
 public class ShiroConfiguration {
     private static final Logger log = LoggerFactory.getLogger(ShiroConfiguration.class);

@@ -4,12 +4,6 @@ import com.iinaq.springboot.domain.User;
 
 import java.util.*;
 
-/**
- * @ClassName DbCache
- * @Description TODO
- * @Author zhouzhongshan
- * @Date 2019/7/1  14:54
- **/
 public class DbCache {
     public static final Map<String,User> USERS_CACHE = new HashMap<>();
 
