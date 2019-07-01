@@ -1,6 +1,7 @@
 package com.iinaq.springboot.annotation;
 
 import java.lang.annotation.*;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @ClassName LocalLock
@@ -16,4 +17,5 @@ public @interface LocalLock {
     String key() default "";
 
     int expire() default 5;
+
 }

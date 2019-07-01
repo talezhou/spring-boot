@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
  **/
 @Aspect
 @Configuration
-public class LockMethodInterceptor {
+public class LocalLockMethodInterceptor {
 
     private static final Cache<String,Object> CACHES = CacheBuilder.newBuilder()
             .maximumSize(1000)
