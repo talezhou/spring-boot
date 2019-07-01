@@ -1,5 +1,6 @@
 package com.iinaq.springboot.controller;
 
+import com.iinaq.springboot.annotation.LocalLock;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -17,6 +18,7 @@ public class UserController {
         return "getUserInfo";
     }
 
+    @LocalLock(key = "user:arg[0]")
     @PostMapping("/addUser")
     @ApiOperation(notes = "添加用户信息", value = "add user info")
     @ApiImplicitParam(value = "添加用户", name = "add user", dataType = "java.lang.String", required = true)
