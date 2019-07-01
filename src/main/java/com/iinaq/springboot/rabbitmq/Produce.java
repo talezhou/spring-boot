@@ -1,6 +1,7 @@
 package com.iinaq.springboot.rabbitmq;
 
 import com.iinaq.springboot.config.RabbitmqConfig;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class Produce<T> {

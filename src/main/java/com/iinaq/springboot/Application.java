@@ -1,5 +1,6 @@
 package com.iinaq.springboot;
 
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.apache.catalina.core.ApplicationContext;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.CommandLineRunner;
