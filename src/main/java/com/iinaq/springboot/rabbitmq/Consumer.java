@@ -19,7 +19,7 @@ public class Consumer {
     private static final Logger log = LoggerFactory.getLogger(Consumer.class);
 
     @RabbitListener(queues = {RabbitmqConfig.DEFAULT_USER_QUEUE})
-    public void listenerAutoAck(User user, Message message, RabbitProperties.Cache.Channel channel){
+    public void listenerAutoAck(User user, Message message, Channel channel){
 // TODO 如果手动ACK,消息会被监听消费,但是消息在队列中依旧存在,如果 未配置 acknowledge-mode 默认是会在消费完毕后自动ACK掉
         final long deliveryTag = message.getMessageProperties().getDeliveryTag();
         try {
