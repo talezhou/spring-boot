@@ -5,12 +5,10 @@ import com.iinaq.springboot.domain.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import org.springframework.boot.autoconfigure.amqp.RabbitProperties;
 import org.springframework.stereotype.Component;
 import org.springframework.amqp.core.Message;
 import com.rabbitmq.client.Channel;
 
-import java.awt.print.Book;
 import java.io.IOException;
 
 @Component
