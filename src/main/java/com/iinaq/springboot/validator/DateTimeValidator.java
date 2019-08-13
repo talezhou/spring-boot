@@ -8,6 +8,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
 public class DateTimeValidator implements ConstraintValidator<DateTime,String> {
+
     private DateTime dateTime;
 
     @Override
