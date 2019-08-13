@@ -1,6 +1,5 @@
 package com.iinaq.springboot.utils;
 
-
 import javax.websocket.RemoteEndpoint;
 import javax.websocket.Session;
 import java.io.IOException;
