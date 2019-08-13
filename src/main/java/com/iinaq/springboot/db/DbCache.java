@@ -1,7 +1,6 @@
 package com.iinaq.springboot.db;
 
 import com.iinaq.springboot.domain.User;
-
 import java.util.*;
 
 public class DbCache {
