@@ -1,6 +1,5 @@
 package com.iinaq.springboot.utils;
 
-import org.springframework.data.redis.core.StringRedisTemplate;
 
 import javax.websocket.RemoteEndpoint;
 import javax.websocket.Session;
