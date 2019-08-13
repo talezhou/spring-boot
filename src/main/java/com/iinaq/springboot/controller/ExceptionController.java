@@ -15,4 +15,5 @@ public class ExceptionController {
         int i = 10*num;
         return "result : " + i;
     }
+
 }
